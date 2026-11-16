@@ -54,4 +54,4 @@ AI được sử dụng như công cụ hỗ trợ trong quá trình phân tích
 
 Sau khi nhận được nội dung hỗ trợ, tôi trực tiếp kiểm tra giao diện trên trình duyệt, đối chiếu kết quả với yêu cầu bài tập và điều chỉnh mã nguồn. Trong quá trình kiểm tra, tôi phát hiện hình ảnh sản phẩm chưa phù hợp với thương hiệu tham khảo, sau đó chủ động thay thế bằng hình ảnh sản phẩm thực tế từ website Levents và điều chỉnh CSS liên quan để đảm bảo tính nhất quán với giao diện tham khảo..
 
-AI chỉ đóng vai trò hỗ trợ; em chịu trách nhiệm kiểm tra, lựa chọn và hoàn thiện sản phẩm cuối cùng.
+AI chỉ đóng vai trò hỗ trợ; tôi chịu trách nhiệm kiểm tra, lựa chọn và hoàn thiện sản phẩm cuối cùng.
