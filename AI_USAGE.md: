@@ -1,0 +1,100 @@
+# AI Usage Log
+
+## 1. Công cụ AI
+
+**Tên công cụ:** ChatGPT (OpenAI)
+
+Công cụ được sử dụng để hỗ trợ phân tích giao diện website Levents, đề xuất phương án cải thiện trải nghiệm người dùng, xây dựng giao diện bằng HTML5 và CSS3, giải thích mã nguồn và hỗ trợ kiểm tra, điều chỉnh sản phẩm.
+
+## 2. Mục đích sử dụng
+
+- Phân tích giao diện website Levents hiện tại và nhận diện những điểm có thể cải thiện trong trải nghiệm người dùng.
+- Đề xuất phương án thiết kế và bố cục giao diện phù hợp với website thương mại điện tử.
+- Hỗ trợ xây dựng giao diện bằng HTML5 và CSS3.
+- Hỗ trợ bổ sung chức năng Size Finder nhằm giúp người dùng tham khảo kích thước phù hợp dựa trên chiều cao và cân nặng.
+- Giải thích vai trò của các thành phần HTML, CSS và JavaScript trong mã nguồn.
+- Hỗ trợ kiểm tra, phát hiện và điều chỉnh những vấn đề trong quá trình hoàn thiện giao diện.
+
+## 3. Prompt đã sử dụng
+
+### Prompt 1: Đề xuất phương án thiết kế
+
+```text
+Tôi đang thực hiện bài tập phát triển giao diện website thương mại điện tử bằng HTML5 và CSS3... Trước tiên, hãy giải thích phương án thiết kế. Chưa tạo toàn bộ mã nguồn cho đến khi tôi yêu cầu.
+```
+
+*Lưu ý: Đây là phần prompt được lưu lại trong lịch sử trao đổi; dấu ba chấm thể hiện phần nội dung chưa được lưu đầy đủ, không phải nguyên văn toàn bộ prompt.*
+
+### Prompt 2: Xây dựng giao diện website
+
+```text
+Dựa trên phương án đã thống nhất, hãy tạo một trang giao diện thương mại điện tử bằng HTML5 và CSS3.
+```
+
+Các yêu cầu đi kèm:
+- Có ít nhất 4 sản phẩm.
+- Tách riêng HTML và CSS.
+- Giao diện tương thích với màn hình máy tính và điện thoại.
+- Không cần backend, cơ sở dữ liệu hoặc thư viện không cần thiết.
+- Giải thích cách mở website và kiểm tra kết quả.
+
+### Các yêu cầu bổ sung trong quá trình thực hiện
+
+- Phân tích những điểm chưa thuận tiện trong giao diện website Levents và xác định nội dung cần cải thiện.
+- Bổ sung chức năng gợi ý size dựa trên chiều cao và cân nặng.
+- Hỗ trợ kiểm tra kết quả tính toán thực tế của chức năng Size Finder.
+- Giải thích những thành phần HTML/CSS đã thay đổi và cách chúng hoạt động để có thể trình bày với giảng viên.
+
+*Các yêu cầu bổ sung trên được tổng hợp theo nội dung trao đổi, không phải trích dẫn nguyên văn từng prompt.*
+
+## 4. Kết quả AI đề xuất
+
+AI đã hỗ trợ đề xuất và xây dựng giao diện website thương mại điện tử lấy cảm hứng từ Levents, bao gồm:
+
+- Bố cục trang web với Header, Navigation, khu vực giới thiệu, danh sách sản phẩm và Footer.
+- Khu vực hiển thị 4 sản phẩm với hình ảnh, tên sản phẩm, thông tin phân loại, giá bán và nút chọn size.
+- Chức năng Size Finder cho phép người dùng nhập chiều cao và cân nặng để nhận kết quả gợi ý kích thước.
+- Bảng tham khảo kích thước S, M, L và XL.
+- Giao diện responsive giúp bố cục thích ứng với nhiều kích thước màn hình.
+- Các thành phần HTML có cấu trúc rõ ràng và CSS sử dụng Grid, Flexbox, Media Queries để tổ chức bố cục.
+
+## 5. Kiểm tra và điều chỉnh
+
+Sau khi nhận kết quả từ AI, tôi đã kiểm tra giao diện và điều chỉnh một số nội dung:
+
+- Kiểm tra cách hiển thị hình ảnh sản phẩm và điều chỉnh CSS để loại bỏ các hình khối trang trí không phù hợp đang che lên hình ảnh.
+- Sử dụng hình ảnh sản phẩm Levents thay cho hình ảnh minh họa ban đầu.
+- Kiểm tra bố cục danh sách sản phẩm trên màn hình máy tính và điện thoại.
+- Kiểm tra biểu mẫu nhập chiều cao, cân nặng và khu vực hiển thị kết quả Size Finder.
+- Đối chiếu các thành phần giao diện với website Levents ban đầu để tránh đề xuất cải tiến đối với những chức năng vốn đã tồn tại.
+- Điều chỉnh nội dung mô tả để phân biệt rõ chức năng có sẵn và chức năng được bổ sung.
+
+Ngoài ra, bảng kích thước được sử dụng trong bài là dữ liệu giả định phục vụ minh họa chức năng, không phải thông số kích thước chính thức do Levents công bố.
+
+## 6. Phần tôi hiểu và có thể giải thích
+
+Tôi có thể giải thích những thành phần chính trong mã nguồn và vai trò của chúng:
+
+**HTML5:**
+- `header`: Xây dựng phần đầu trang.
+- `nav`: Tạo thanh điều hướng giữa các khu vực.
+- `main`: Chứa nội dung chính của website.
+- `section`: Phân chia các khu vực nội dung.
+- `article`: Tổ chức thông tin từng sản phẩm.
+- `form`, `label`, `input`, `button`: Xây dựng biểu mẫu nhập chiều cao, cân nặng và nút thực hiện gợi ý size.
+- `table`, `tr`, `th`, `td`: Trình bày bảng tham khảo kích thước.
+- `footer`: Xây dựng phần cuối trang.
+
+**CSS3:**
+- `display: grid`: Sắp xếp danh sách sản phẩm và các khu vực nội dung theo dạng lưới.
+- `display: flex`: Căn chỉnh và phân bố các thành phần trong cùng một hàng hoặc cột.
+- `@media`: Điều chỉnh giao diện theo kích thước màn hình.
+- `::before` và `::after`: Tạo các thành phần trang trí bằng CSS; trong phiên bản hiện tại, các pseudo-element không còn được sử dụng để tránh che khuất hình ảnh sản phẩm.
+
+**JavaScript:**
+- Đọc dữ liệu chiều cao và cân nặng người dùng nhập.
+- Kiểm tra dữ liệu đầu vào.
+- Thực hiện xử lý theo quy tắc gợi ý kích thước được lập trình.
+- Hiển thị kết quả gợi ý size trên giao diện thông qua khu vực có `id="result"`.
+
+Thông qua quá trình thực hiện, tôi hiểu được cách HTML xây dựng cấu trúc, CSS định dạng giao diện và JavaScript xử lý tương tác. AI được sử dụng như công cụ hỗ trợ; tôi có kiểm tra và điều chỉnh kết quả trước khi hoàn thiện sản phẩm.
